@@ -2,22 +2,28 @@
 
 Our project utilised the Spotify Million Playlist Dataset obtained from https://www.aicrowd.com/challenges/spotify-million-playlist-dataset-challenge/dataset_files and Spotify’s web API to extract key features of the songs such as danceability, energy, key, loudness, mode, speechiness, acousticness, instrumentalness, liveness, valence, tempo, durection_ms, name, popularity, artist and genre. 
 
+Members: 
+Chua Jing Jie, Justin @Whatjustin 
+Lim Zhe Xun @HersheyZinc
+Jessie Ang @jessieeang 
+
+## Content 
 Importing the Dataset:
 Using Spotify API
 Cleaning null/duplicate data
 
-Exploratory Data Analysis
+ Exploratory Data Analysis
 Univariate Pair Plot
 Univariate Box Plot
 Univariate Violin Plot
 Univariate Histogram 
 
-Data Cleaning: 
+ Data Cleaning: 
 ‘Key’ , ‘Artist’ and ‘Mode’ were dropped as variables 
 Songs with ‘Popularity’ score of zero were dropped 
 One-Hot encoding for genres
 
-Advanced EDA:
+ Advanced EDA:
 Correlation Heatmap
 Bar Plot
 Pair Plot
@@ -53,5 +59,4 @@ https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.GradientBoost
 https://towardsdatascience.com/predicting-popularity-on-spotify-when-data-needs-culture-more-than-culture-needs-data-2ed3661f75f1#:~:text=According%20to%20Spotify%2C%20%E2%80%9Cpopularity%20is,a%20lot%20in%20the%20past.%E2%80%9D 
 7 Spotify Statistics that can help your business [2022] (rockcontent.com)
 
-Individual contributions: 
-As shown
+
