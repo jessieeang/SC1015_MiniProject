@@ -41,7 +41,7 @@ Random Forest Classifier was the best model as it yielded the highest Balance Ac
 
 Some possible improvements could be increasing the number of popular songs within the data to ensure greater balance. Adopting over or under sampling could also have a positive effect on our models if used in tandem. More independent variables should also be identified such as ‘current trends in music’ and  ‘social media’. Another possible variable could be ‘Artist’ as despite us dropping to variable so as to not introduce bias within the data, ‘Artist’ is theoretically a good metric for the popularity of a song. Furthermore, we noted that the popularity variable provided by Spotify only reflects a track’s current popularity. As such, negating the success of old songs that are past their prime. A solution to this might be to use a song’s lifetime streams as a metric for popularity or break down popularity into more subsets such as ‘region’ or ‘time period’. This would allow us to more accurately determine a song’s overall popularity regardless of the current trends.
 
-Online references : 
+#Online references : 
 https://www.investopedia.com/articles/investing/120314/spotify-makes-internet-music-make-money.asp 
 https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.GridSearchCV.html 
 sklearn.tree.DecisionTreeClassifier — scikit-learn 1.0.2 documentation
